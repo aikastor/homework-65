@@ -1,7 +1,6 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import Layout from "./components/Layout/Layout";
 import {Route, Switch, BrowserRouter} from "react-router-dom";
-import MainPage from "./containers/MainPage/MainPage";
 import Page from "./components/Page/Page";
 import {Redirect} from "react-router";
 import PageEditor from "./components/PageEditor/PageEditor";
